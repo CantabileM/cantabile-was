@@ -9,6 +9,6 @@ export class AuthController {
     @Post("/sign-up")
     @HttpCode(HttpStatus.OK)
     public signUp(signUpDto: SignUpDto) {
-
+        console.log("Hello World!");
     }
 }
